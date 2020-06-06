@@ -36,7 +36,7 @@ Example
 The following un-tested pseudo-code shows how you might use ``cas_client`` in a
 Flask project.
 
-::
+.. code-block:: python
 
     from cas_client import CASClient
     from flask import Flask, redirect, request, session, url_for
